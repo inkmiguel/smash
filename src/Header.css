@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: linear-gradient(90deg, #19191a 0%, #e5e7e9 100%);
+    background: linear-gradient(90deg, #19191a 0%, #d9dbdd 100%);
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     border-radius: 0 0 12px 12px;
     position: fixed;
@@ -33,7 +33,22 @@
 
 .header-content a:hover,
 .header-content a:focus {
-    color: #b86c09;
+    color: #ffb347;
     border-bottom: 2px solid #ffb347;
     outline: none;
+}
+
+.header-content a.active.main-menu {
+    color: #ff3b3b; /* Rojo */
+    border-bottom: 2px solid #ff3b3b;
+}
+
+.header-content a.active.characters {
+    color: #2ecc40; /* Verde */
+    border-bottom: 2px solid #2ecc40;
+}
+
+.header-content a.active.about {
+    color: #ffb347; /* Naranja o el color que prefieras */
+    border-bottom: 2px solid #ffb347;
 }
